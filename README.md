@@ -21,7 +21,7 @@
     
     - HTML, CSS, JavaScript
 
-- 우주연 : back-end
+- 우주연 : back-end, front-end 일부
   
   - 기술 스택
     
@@ -99,7 +99,7 @@
   
   - 각자의 분야에 대한 역할을 정하고 협력하여 프로젝트를 진행하면서 많은것을 배울수 있었습니다. 백엔드와 프론트엔드간의 상호작용이 필요함을 느꼈고 팀원과 함께 전체적인 시스템을 이해하고 개발하는과정에서 서로의 역할분야에 대한 이해도를 높일수가 있었습니다.
     
-    특히 백엔드를 맡으면서 내가 보낸 데이터가 프론트에서 어떻게 쓰일지, 또는 어떻게 가공,구현해서 보내야 효율적으로 사용할지에 대한 고민을 하고 소통을 하면서 많은 것을 느낄수 있었습니다.
+    특히 주로 백엔드를 맡으면서 내가 보낸 데이터가 프론트에서 어떻게 쓰일지, 또는 어떻게 가공,구현해서 보내야 효율적으로 사용할지에 대한 고민을 하고 소통을 하면서 많은 것을 느낄수 있었습니다.
     
     다음에 프로젝트를 한다면 위의 경험을 살려서 더욱더 좋은 결과를 내고 싶습니다.
 
@@ -113,23 +113,17 @@
   - `python -m venv venv`
   - `source venv/Scripts/activate`
   - `pip install requirements`
-  
-  
-  
-  - 최초 실행할 경우 꼭 수행
-    - 데이터베이스 생성
-      - `python manage.py migrate`
-    - json 데이터를 DB에 dump
-      - `python manage.py loaddata genre_data.json movie_data.json`
-  - `python manage.py runserver`
 
-
+- 최초 실행할 경우 꼭 수행
+  - 데이터베이스 생성
+    - `python manage.py migrate`
+  - json 데이터를 DB에 dump
+    - `python manage.py loaddata genre_data.json movie_data.json`
+- `python manage.py runserver`
 
 - frontend 폴더에서
   - `npm i`
   - `npm run serve`
-
-
 
 ### Overview
 
